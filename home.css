@@ -1,0 +1,31 @@
+body {
+    background-color: white;
+    text-align: center;    
+}
+
+h1 {
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    
+  }
+  
+li {
+    padding-left: 1em;
+    text-indent: -1em;
+    
+}
+
+li:before {
+    content: "+";
+    padding-right: 5px;
+}
+
+a {
+    font-weight: 500;
+}
